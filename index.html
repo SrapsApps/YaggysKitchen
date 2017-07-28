@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My mobile page!</title>	
+	<link rel="stylesheet" href="themes/yaggysTheme.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+
+
+	<div data-role="page" id="page1" data-theme="d">
+		<div data-role="header">		
+			<h1>Yaggys Kitchen</h1>
+			<div data-role="navbar" >
+				<ul>
+					<li><a href="#page1" data-icon="arrow-l">left</a></li>
+					<li><a href="#page1" data-icon="grid">Home</a></li>
+					<li><a href="#page2" data-icon="arrow-r">right</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="main" class="ui-content">
+			<h1>Yaggys says...</h1>
+			<p>Welcome to Yaggys world</p>
+			<div data-role="collapsible">				
+				<h1>past work</h1>
+				<p>Look at my past work..</p>
+			</div>
+			<div data-role="collapsible">				
+				<h1>past work</h1>
+				<p>Look at my past work..</p>
+			</div>
+			<div data-role="collapsible">				
+				<h1>past work</h1>
+				<p>Look at my past work..</p>
+			</div>
+			<!-- <a href="#page2" data-transition="none">Page 2</a> -->
+		</div>
+		<div data-role="footer">
+		<h2>&copy; Yaggy Yagfluff</h2>
+		</div>
+	</div>
+
+
+	<div data-role="page" id="page2" data-theme="d">
+		<div data-role="header">		
+			<h1>Yaggys contact page</h1>
+						<div data-role="navbar" >
+				<ul>
+					<li><a href="#page1" data-icon="arrow-l">left</a></li>
+					<li><a href="#page1" data-icon="grid">Home</a></li>
+					<li><a href="#page2" data-icon="arrow-r">right</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="main" class="ui-content">
+			<h1>Contact me</h1>
+			<form>
+				<label for="essay">Tell us what you think</label>
+				<textarea name="essay" id="essay" placeholder="Tell me how good this app is"> </textarea>
+				<label for="range">rate us out of 10</label>
+				<input type="range" name="rate" min="0" max="10" />
+				<input type="submit" name="go" id="go" value="rate my app"/>
+			</form>
+			<p>Welcome to Yaggys world</p>
+			<!-- <a href="#page1" data-transition="none">Page 1</a> -->
+		</div>
+		<div data-role="footer">
+		<h2>&copy; Yaggy Yagfluff</h2>
+		</div>
+	</div>
+
+</body>
+</html>
+
+
+
